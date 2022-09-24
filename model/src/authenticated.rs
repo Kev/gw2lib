@@ -3,6 +3,7 @@ use serde::{Deserialize, Serialize};
 use crate::{Endpoint, FixedEndpoint, TimeStamp};
 pub mod account;
 pub mod characters;
+pub mod commerce;
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq)]
 #[serde(rename_all = "lowercase")]
